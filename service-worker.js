@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/Redux-Todo/do-work-redux/precache-manifest.0352d3482b12795a63ac33e2f4f151cd.js"
+  "/Redux-Todo/precache-manifest.cf4fea48969c4dedea4eb4ff5256accc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Redux-Todo/do-work-redux/index.html", {
+workbox.routing.registerNavigationRoute("/Redux-Todo/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
